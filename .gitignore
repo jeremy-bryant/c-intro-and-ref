@@ -283,7 +283,7 @@ lisp/language/pinyin.el
 *.kys
 *.op
 *.ops
-*.pdf
+#*.pdf
 !doc/lispintro/cons-*.pdf
 !doc/lispintro/drawers.pdf
 !doc/lispintro/lambda-*.pdf
