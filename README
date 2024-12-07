@@ -32,3 +32,19 @@
 ;; modify this GNU manual.”
 
 ;; Please report errors and suggestions to c-manual@@gnu.org.
+
+Installation instructions
+
+(package-vc-install
+ '(c-intro-and-ref :url "https://github.com/jeremy-bryant/c-intro-and-ref"
+		   :branch "master"
+		   :rev :newest
+		   :doc "./c.texi"))
+
+or
+
+(use-package c-intro-and-ref :ensure nil
+    :vc (c-intro-and-ref :url "https://github.com/jeremy-bryant/c-intro-and-ref"
+           :branch "master"
+           :rev :newest
+           :doc "./c.texi"))
